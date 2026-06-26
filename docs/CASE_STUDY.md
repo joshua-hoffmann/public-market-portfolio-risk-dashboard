@@ -21,14 +21,8 @@ The main reader takeaway is that high cumulative return, high volatility, deep d
 
 ## Data and scope
 
-- Sample period: 
-2015-01-02
- to 
-2026-06-26
-.
-- Observations per ticker in the generated risk table: 
-2887
-.
+- Sample period: 2015-01-02 to 2026-06-26.
+- Observations per ticker in the generated risk table: 2887.
 - Data source: Yahoo Finance data accessed through yfinance.
 - Asset universe: selected public-market ETF sample used for methodology demonstration.
 - Analysis type: descriptive historical analysis only.
@@ -54,46 +48,14 @@ Across the selected period, the generated outputs showed materially different hi
 
 | Observation | Ticker | Historical value |
 |---|---:|---:|
-| Highest annualized volatility in the sample | 
-IWM
- | 
-22.45
-% |
-| Lowest annualized volatility in the sample | 
-AGG
- | 
-5.2
-% |
-| Deepest maximum drawdown in the sample | 
-TLT
- | 
--48.35
-% |
-| Least deep maximum drawdown in the sample | 
-AGG
- | 
--18.43
-% |
-| Highest cumulative return in the sample | 
-QQQ
- | 
-650.19
-% |
-| Lowest cumulative return in the sample | 
-TLT
- | 
--6.12
-% |
-| Worst single daily return in the sample | 
-VNQ
- | 
--17.73
-% |
-| Best single daily return in the sample | 
-QQQ
- | 
-12
-% |
+| Highest annualized volatility in the sample | IWM | 22.45% |
+| Lowest annualized volatility in the sample | AGG | 5.2% |
+| Deepest maximum drawdown in the sample | TLT | -48.35% |
+| Least deep maximum drawdown in the sample | AGG | -18.43% |
+| Highest cumulative return in the sample | QQQ | 650.19% |
+| Lowest cumulative return in the sample | TLT | -6.12% |
+| Worst single daily return in the sample | VNQ | -17.73% |
+| Best single daily return in the sample | QQQ | 12% |
 
 These observations are descriptive only. They summarize what happened in the selected sample period and do not imply future performance, future risk, or investment suitability.
 
