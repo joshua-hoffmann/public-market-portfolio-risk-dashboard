@@ -1,12 +1,5 @@
-# Portfolio Risk Dashboard
+﻿# ETF / Portfolio Risk Dashboard from Public Market Data
 
-## Reader takeaway
-
-This project shows why portfolio risk should be reviewed across multiple historical dimensions rather than through asset labels or return figures alone.
-
-The accompanying case study compares selected public-market ETFs across historical drawdowns, volatility, return behavior, and correlation behavior. The main insight is that cumulative return, volatility, drawdown depth, and co-movement describe different parts of the risk profile and should be reviewed together.
-
-Read the case study: [Historical Risk Profiles of Selected Public-Market ETFs](docs/CASE_STUDY.md)
 This project provides a reproducible dashboard for descriptively comparing selected public-market ETFs using historical data. It focuses on volatility, drawdowns, return distributions, and correlation behavior over a defined sample period.
 
 The goal is to demonstrate a transparent analytical workflow and interpretation framework. It is not designed to provide investment advice, forecasts, rankings, allocation guidance, or portfolio recommendations.
@@ -36,7 +29,7 @@ Raw downloaded market data is not redistributed as project-owned or freely licen
 - It does not provide investment advice.
 - It does not provide buy, sell, hold, allocation, or timing guidance.
 - It does not forecast future returns, volatility, drawdowns, or correlations.
-- It does not identify superior ETFs or selected exposure examples.
+- It does not identify superior ETFs or preferred exposures.
 - It does not perform portfolio optimization.
 - It does not validate an investment model.
 - It does not treat Yahoo Finance or yfinance data as institutionally validated market data.
@@ -190,3 +183,17 @@ Users are responsible for complying with the terms of the external data source t
 This project is for educational and methodological analysis only. It is not financial advice, investment advice, a recommendation, a forecast, or a portfolio-construction tool.
 
 Nothing in this repository should be interpreted as a suggestion to buy, sell, hold, allocate to, avoid, or prefer any asset.
+
+## Stress-period comparison extension
+
+This project also includes a small stress-period comparison extension. The extension compares the selected ETF sample over predefined historical windows using adjusted-close price history.
+
+Included stress windows:
+
+- 2020 shock: 2020-02-19 to 2020-03-23
+- 2022 rate/inflation shock: 2022-01-03 to 2022-10-14
+
+The comparison is descriptive, historical, and period-specific. It is intended to show how the selected ETF sample behaved within these fixed windows, not to rank ETFs or infer future behavior.
+
+The extension does not provide investment advice, forecasts, optimization outputs, or ETF recommendations. Results depend on the selected date windows and adjusted-close data availability.
+
