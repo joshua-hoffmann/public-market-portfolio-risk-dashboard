@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data
+data/raw/
+data/processed/
+
+# Generated outputs
+outputs/figures/
+outputs/tables/
+
+# Environment
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python build/package artifacts
+*.egg-info/
+src/*.egg-info/
+build/
+dist/
+
+# Internal validation and workflow logs
+docs/internal/VALIDATION_01_ENVIRONMENT_AND_TESTS.md
+docs/internal/VALIDATION_02_YFINANCE_PREFLIGHT.md
+docs/internal/WORKFLOW_ERROR_LOGBOOK.md

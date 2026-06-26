@@ -1,0 +1,23 @@
+[project]
+name = "portfolio-risk-dashboard-public-market-data"
+version = "0.1.0"
+description = "Descriptive historical ETF/public-market risk dashboard from public market data."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "yfinance>=0.2.0",
+    "pytest>=8.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
