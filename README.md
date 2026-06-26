@@ -1,5 +1,12 @@
 # Portfolio Risk Dashboard
 
+## Reader takeaway
+
+This project shows why portfolio risk should be reviewed across multiple historical dimensions rather than through asset labels or return figures alone.
+
+The accompanying case study compares selected public-market ETFs across historical drawdowns, volatility, return behavior, and correlation behavior. The main insight is that cumulative return, volatility, drawdown depth, and co-movement describe different parts of the risk profile and should be reviewed together.
+
+Read the case study: [Historical Risk Profiles of Selected Public-Market ETFs](docs/CASE_STUDY.md)
 This project provides a reproducible dashboard for descriptively comparing selected public-market ETFs using historical data. It focuses on volatility, drawdowns, return distributions, and correlation behavior over a defined sample period.
 
 The goal is to demonstrate a transparent analytical workflow and interpretation framework. It is not designed to provide investment advice, forecasts, rankings, allocation guidance, or portfolio recommendations.
